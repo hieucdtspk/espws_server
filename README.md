@@ -70,6 +70,10 @@ void ICACHE_FLASH_ATTR user_init(void)
 	WIFI_Connect("Your-wifi-ssid", "Your-wifi-password", userWifiConnectCb);
 }
 ```
+
+**Client:**
+Open 'client.html' with your browser, navigate correct IP address to your websocket server running on ESP8266, connect and send something... :)
+
 **Limitation:**
 - secure websocket (require SSL server side support from SDK)
 - websocket client (TODO)
